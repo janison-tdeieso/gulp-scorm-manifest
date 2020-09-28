@@ -26,7 +26,7 @@ module.exports = function(options) {
   var fileName = options.fileName;
 
   var xmlTokens = {
-    versionString: '2004 3rd Edition',
+    versionString: '2004 4th Edition',
     scormType: 'adlcp:scormType',
     fileArr: [
       {'@identifier':  'resource_1'},
@@ -42,7 +42,7 @@ module.exports = function(options) {
     xmlTokens.scormType = 'adlcp:scormtype';
 
   } else if (v.indexOf('2004')===0) {
-    xmlTokens.versionString = '2004 3rd Edition';
+    xmlTokens.versionString = '2004 4th Edition';
     xmlTokens.scormType = 'adlcp:scormType';
   }
 
